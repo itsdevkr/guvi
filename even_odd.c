@@ -6,8 +6,8 @@ int main(void) {
 	if(n<0)
 	printf("invalid");
 	if(n%2==0)
-	printf("even");
+	printf("Even");
 	else
-	printf("odd");
+	printf("Odd");
 	return 0;
 }
