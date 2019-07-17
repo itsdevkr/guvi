@@ -3,7 +3,7 @@ a=list(map(int,input().split()))
 
 b=set(a)
 bb=sorted(b, reverse=False)
-print(bb)
+#print(bb)
 c=list(bb)
 
 print(c[-k])
