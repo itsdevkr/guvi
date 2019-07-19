@@ -35,12 +35,17 @@ struct Node * reverse(struct Node *p)
 	head=q;
 	return head;
 }
-void display(struct Node *p)
+void display(struct Node *p,int n)
 {
+	int c=0;
 	while(p!=NULL)
 	{
-		printf("%d->",p->data);
+		
+		printf("%d",p->data);
+		
 		p=p->next;
+		if(p!=NULL)
+		printf("->");
 	}
 }
 int main(void) {
@@ -52,6 +57,6 @@ int main(void) {
 	scanf("%d",&A[i]);
 	create(A,n);
 	reverse(head);
-	display(head);
+	display(head,n);
 	return 0;
 }
