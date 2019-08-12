@@ -6,8 +6,8 @@ int main() {
 	string s;
 	cin>>s;
 	if(s=="Saturday" || s=="Sunday")
-	cout<<"Yes";
+	cout<<"yes";
 	else
-	cout<<"No";
+	cout<<"no";
 	return 0;
 }
